@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Studio R.M.</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="パーソナルメイクレッスンを行っております。">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" id="logo">
+                <img src="new-images/logo.png" alt="トップページに戻る">
+            </a>
+            <!-- PC用ナビゲーション -->
+             <nav id="nav-pc">
+                <ul>
+                    <li><a href="mission.html">elementry beautyとは</a></li>
+                    <li><a href="product.html">メニュー</a></li>
+                    <li><a href="index.html#aboutus">プロフィール</a></li>
+                    <li><a href="index.html#company">サロン概要</a></li>
+                    <li><a href="index.html#contact">お問い合わせ</a></li>
+                </ul>
+             </nav>
+            <!-- スマホ用ハンバーガー -->
+             <!-- スマホ用メニューボタン -->
+             <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+             <img src="new-images/button-menu.png" alt="ナビゲーションを開く">
+            </button>
+            <!-- スマホ用ナビゲーション -->
+             <div id="nav-sp">
+              <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                <img src="images/button-close.png" alt="ナビゲーションを閉じる">
+              </button>
+
+              <nav>
+                <ul>
+                  <li>
+                    <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display= 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></li>
+                      <li><a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display= 'none'">elementry beautyとは</a></li>
+                      <li><a class="menu" href="product.html" onclick="document.getElementById('nav-sp').style.display= 'none'">メニュー</a></li>
+                      <li><a class="menu" href="index.html#aboutus" onclick="document.getElementById('nav-sp').style.display= 'none'">プロフィール</a></li>
+                      <li><a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display= 'none'">サロン概要</a></li>
+                      <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display= 'none'">お問い合わせ</a></li>
+                </ul>
+              </nav>
+              <div id="sns">
+                <a href="https://www.facebook.com/sejuku2013">
+                  <img src="images/button-facebook.png" alt="facebookのリンク">
+                </a>
+                <a href="https://twitter.com/samuraijuku">
+                  <img src="images/button-twitter.png" alt="Twitterのリンク">
+                </a>
+                <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g">
+                  <img src="images/button-youtube.png" alt="YouTubeのリンク">
+                </a>
+              </div>
+             </div>
+        </header>
+        <main>
+            <article>
+                <!-- メインビジュアル -->
+                <section id="main-visual">
+                    <div id="main-message">
+                        <h1>STUDIO R.M.</h1>
+                        <p>メイクを通じて、<br>自分純度100％の人生を軽やかに生きる</p>
+                    </div>
+                    <img src="new-images/index/index-main.png" alt="浜辺で笑顔の女性">
+                </section>
+                <!-- ミッション -->
+                 <section id="mission">
+                    <h2 class="index-h2">elementry beautyとは</h2>
+                    <div id="mission-flex">
+                        <div>
+                            <img id="mission-photo" src="new-images/index/index-mission.png" alt="屋外のベンチで写真を撮影する多国籍の仲間たち">
+                            <h3 class="e-catch">いらないものを捨てる<br>真の魅力を受け入れる<br>本来の自分を活かす</h3>
+                            <p>
+                              いらなくなった事実や想いをワークというツールで削ぎ落とし、あなたという輪郭を浮き彫りにします。それを受け入れながら、あなたという「真の美しさ」を表現するツールとしてメイクアップを行います。
+                              いらないものを削ぎ落とすことで素の自分に気づき、「自分」という輪郭を確認しながら、好きも嫌いもすべて自分のものとして堂々と生きる心地よさを体感していただきます。自分に素直に、自分を大切に「私を生きる」。
+                              そこから生まれてくるのはHAPPYで心地よい自分らしさ溢れる豊かな人生です。一人一人が自分らしい美しさの溢れたライフスタイルを見つけられるよう、メイクアップとstudio R.M.オリジナルワークショップを融合させたのが、「エレメンタリービューティープログラム」です。ぜひ「私を生きる」心地よさを体感してください。
+                            </p>
+                        </div>
+                        <div>
+                            <img id="s2dgs" src="new-images/index/elementry-beauty.png" alt="S2DGS">
+                            <h3 class="e-catch">美しさとは、<br>外側から付け足しまとうものでなく、<br>元々その人の中にあるということ</h3>
+                            <p>エレメンタリー（素）な唯一無二の個性美と、それを本人が受け入れるかどうか。これが今後の自分の人生を美しく豊かに過ごせるかどうかに大きく関係しているのだと実感しています。
+
+                              たくさんの情報やツールが溢れる現在ですが、様々なことに惑わされず、「自分」に素直に、「自分を大切に」生きることがさらに大事になってくるこれから。ぜひstudio R.M.であなたの素の美しさ、真の美しさを自分自身で体感してください。
+                              
+                              その体験を自分らしく豊かなライフスタイルで過ごすためのきっかけにしていただけたら嬉しく思います。</p>
+                            <a href="mission.html">
+                                <img src="new-images/botton-more.png" alt="もっと見る">
+                            </a>
+                       </div>
+                    </div>
+                 </section>
+                 <!-- プロダクト -->
+                 <section id="product">
+                    <h2 class="index-h2">メニュー</h2>
+                    <div class="product-flex">
+                      <div id="product-left">
+                        <div>
+                          <img class="product-photo" src="new-images/index/index-mantoman.png" alt="メイクをする女性">
+                          <div class="product-explain">
+                            <span>個人のお客様</span>
+                            <h3>プログラムメニュー</h3>
+                            <p>2013年より日本で唯一の専属講師によるマンツーマンのプログラミングレッスンを開始。AI/人工知能やウェブデザインの学習も可能です。</p>
+                          </div>
+                        </div>
+                        <div>
+                          <img class="product-photo" src="new-images/index/index-photo.png" alt="たくさんのチェキ">
+                          <div class="product-explain">
+                            <span>写真撮影</span>
+                            <h3>ポートレートセッション</h3>
+                            <p>メイク、ヘアのリタッチをレッスン形式で進めます。レッスン終了後、ポートレイト写真を撮りながら自分自身と向き合いゆっくりとご自分との対話を。婚活のプロフィール写真などにもどうぞ。</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="product-right">
+                         <div>
+                           <img class="product-photo" src="new-images/index/index-media.png" alt="まつげカールの素材">
+                           <div class="product-explain">
+                             <span>個人のお客様</span>
+                             <h3>サロンメニュー</h3>
+                             <p>まつ毛カール・消えない眉などのプラスMENUを
+                              受けていただけます。「新しい自分をみてみたい！」「自分をちょっと変えてみたい」そんな思いの方は是非！</p>
+                           </div>
+                         </div>
+                         <div>
+                           <img class="product-photo" src="new-images/index/index-b2b.png" alt="海のそばにいる女性">
+                           <div class="product-explain">
+                             <span>サロン経営者様</span>
+                             <h3>スキルアップ講座</h3>
+                             <p>サロンのクオリティを
+                              さらに向上させることでお客様にお喜びいただき、より潤滑な運営に繋げるお手伝いをさせていただきます。</p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div id="product-more">
+                       <a href="product.html">
+                         <img src="new-images/botton-more.png" alt="もっとみる">
+                       </a>
+                    </div>
+                </section>
+                <!-- プロフィール -->
+                 <section id="aboutus">
+                    <h2 class="index-h2">プロフィール</h2>
+                    <h3>RIKA</h3>
+                    <div>
+                            <p class="culture-description">総合大手企業でカラーとメイクの指導に携わり、のち独立。20年に渡り、メイクアップアーティストとして国内外で1000件以上のセミナー、のべ5000人以上の個人セッションを手掛け、フランスでのショー出演、アメリカハワイのショーでは演出も手掛けた。美を追求するうち、内面の美しさへの関心が高まり、カウンセラー資格を取得。その人らしさを盛って隠すのではなく、内外面から美を引き出し「その方が持つ真の美しさ」を、削ぎ落としたメイクで表現する。自分自身を解放し、自分の”真の美しさ”に出会える体験をメイクというツールを通して体感できることが話題となり、数ヶ月先まで予約が取れないサロンとなる。<br><br>美容師国家資格取得</td>
+                            </p>
+                        
+                        <img class="culture-img" src="new-images/index/index-aboutus1.png" alt="笑顔で話し合う2人の女性">
+                    </div>
+                    <img class="culture-img2" src="new-images/index/index-aboutus2.png" alt="笑顔で話し合う3人の男女">
+                 </section>
+
+                <!-- COMPANY -->
+                 <section id="company">
+                  <h2 class="index-h2">COMPANY</h2>
+                  <h3>サロン概要</h3>
+                  <table class="company-table">
+                    <tr>
+                      <th class="tableheader tableheader-first">会社名</th>
+                      <td class="cell cell-first">clear essence r-color</td>
+                    </tr>
+                    <tr>
+                      <th class="tableheader">所在地</th>
+                      <td class="cell">	東京世田谷区奥沢7丁目</td>
+                    </tr>
+                    <tr>
+                      <th class="tableheader">代表者</th>
+                      <td class="cell">	馬場利香</td>
+                    </tr>
+                    <tr>
+                      <th class="tableheader">設立</th>
+                      <td class="cell">2015年3月19日</td>
+                    </tr>
+                  </table>
+                 </section>
+                 <!-- CONTACT -->
+                <section id="contact">
+                  <h2 class="index-h2">CONTACT</h2>
+                  <h3>お問い合わせ</h3>
+                  <form>
+                    <div>
+                      <div class="contact-heading">
+                        <label class="contact-label">お名前<span class="contact-span">必須</span></label>
+                      </div>
+                      <div>
+                        <input type="text" name="name" placeholder="入力してください" class="contact-textbox">
+                      </div>
+                    </div>
+                    <div>
+                      <div class="contact-heading">
+                        <label class="contact-label">フリガナ<span class="contact-span">必須</span></label>
+                      </div>
+                      <div>
+                      <input type="text" name="hurigana" placeholder="入力してください" class="contact-textbox">
+                    </div>
+                    </div>
+                    <div>
+                      <div class="contact-heading">
+                        <label class="contact-label">メールアドレス<span class="contact-span">必須</span></label>
+                      </div>
+                      <div>
+                         <input type="text" name="email" placeholder="入力してください" class="contact-textbox">
+                      </div>
+                    </div>
+                    <div>
+                      <div class="contact-heading">
+                        <label class="contact-label">電話番号</label>
+                      </div>
+                      <div>
+                        <input type="text" name="tel" placeholder="入力してください" class="contact-textbox">
+                      </div>
+                    </div>
+                    <div>
+                      <div class="contact-heading">
+                        <label class="contact-label">お問い合わせ内容<span class="contact-span">必須</span></label>
+                      </div>
+                      <div>
+                        <textarea class="contact-textarea" placeholder="入力してください" name="message"></textarea>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="contact-heading">
+                        <label class="contact-label">ご希望の連絡先<span class="contact-span">必須</span></label>
+                      </div>
+                      <div>
+                        <input class="radiobutton" type="radio" value="tell" name="contact" checked><label>お電話</label>
+                        <input class="radiobutton" type="radio" value="mail" name="contact"><label>メール</label>
+                        <input class="radiobutton" type="radio" value="both" name="contact"><label>どちらでも</label>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="contact-heading">
+                        <label class="contact-label">個人情報の取り扱い</label>
+                      </div>
+                      <div>
+                        <details>
+                          <summary>お問い合わせフォームの個人情報取り扱いについて</summary>
+                          <div>
+                            <dl>
+                              <dt>１．組織の名称又は氏名</dt>
+                       <dd>clear essence r-color</dd>
+                       <dt>２．個人情報保護管理者（若しくはその代理人）の氏名又は職名、所属及び連絡先</dt>
+                       <dd>
+                         <p>馬場利香</p>
+                         <p>TEL：090-0000-0000</p>
+                       </dd>
+                       <dt>３．個人情報の利用目的</dt>
+                       <dd>
+                         <ul>
+                           <li>本サービス及び本サービスに関連する情報の提供又はそれらに関する連絡のため</li>
+                           <li>ユーザーの本人確認のため</li>
+                           <li>当社サービスのご案内のため</li>
+                           <li>当社の商品等の広告または宣伝（電子メールによるものを含むものとします。）</li>
+                         </ul>
+                       </dd>
+                       <dt>４．個人情報の取り扱い業務の委託</dt>
+                       <dd>個人情報の取扱業務の全部または一部を外部に業務委託する場合があります。その際、弊社は、個人情報を適切に保護できる管理体制を敷き実行していることを条件として委託先を厳選したうえで、機密保持契約を委託先と締結し、お客様の個人情報を厳密に管理させます。</dd>
+                       <dt>５．個人情報の開示等の請求</dt>
+                       <dd>
+                         お客様は、弊社に対してご自身の個人情報の開示等（利用目的の通知、開示、内容の訂正・追加・削除、利用の停止または消去、第三者への提供の停止）に関して、当社問合わせ窓口に申し出ることができます。<br>
+                         その際、弊社はお客様ご本人を確認させていただいたうえで、合理的な期間内に対応いたします。<br>
+                         なお、個人情報に関する弊社問合わせ先は、次の通りです。
+                       </dd>
+                       <dd>
+                         <p>clear essence r-color　個人情報問合せ窓口</p>
+                         <p>東京世田谷区奥沢7丁目</p>
+                         <p>WEBサイト：https://r-makelabo.com　TEL：090-0000-0000</p>
+                       </dd>
+ 
+                       <dt>６．個人情報を提供されることの任意性について</dt>
+                       <dd>お客様がご自身の個人情報を弊社に提供されるか否かは、お客様のご判断によりますが、もしご提供されない場合には、適切なサービスが提供できない場合がありますので予めご了承ください。</dd>
+                            </dl>
+                          </div>
+                        </details>
+                        <input type="checkbox" name="agree">
+                        <span>個人情報の取り扱いについてご同意いただける場合は、チェックをしてください。</span>
+                      </div>
+                    </div>
+                    <input type="image" src="images/button-submit.png" alt="送信する">
+                  </form>
+                </section>
+            </article>
+        </main>
+
+        <footer id="footer">
+          <div id="footer-logo">
+            <img src="new-images/logo-sp.png" alt="STUDIO R.M.">
+          </div>
+          <div id="footer-link">
+            <a href="mission.html">elementry beautyとは</a>
+            <a href="product.html">メニュー</a>
+            <a href="index.html#aboutus">プロフィール</a>
+            <a href="index.html#company">サロン概要</a>
+            <a href="index.html#contact">お問い合わせ</a>
+          </div>
+          <div id="sns-footer">
+            <div class="sns-btns">
+              <a href="https://www.facebook.com/profile.php?id=100004184952066"><img src="new-images/button-facebook.png" alt="Facebookのリンク"></a>
+              <a href="https://www.instagram.com/minimumricca/"><img src="new-images/button-insta.png" alt="instagramのリンク"></a>
+            </div>
+            <p id="copyright">&copy;2025 uixa design, Inc. All Rights Reserved.</p>
+          </div>
+        </footer>
+    </body>
+</html>

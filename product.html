@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STUDIO R.M. - メニュー一覧-</title>
+    <meta name="description" content="STUDIO R.M.のメニューを紹介します">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id="logo">
+            <img src="new-images/logo.png" alt="トップページに戻る">
+        </a>
+        <!-- PC用ナビゲーション -->
+         <nav id="nav-pc">
+            <ul>
+                <li><a href="mission.html">elementry beautyとは</a></li>
+                <li><a href="product.html">メニュー</a></li>
+                <li><a href="index.html#aboutus">プロフィール</a></li>
+                <li><a href="index.html#company">サロン概要</a></li>
+                <li><a href="index.html#contact">お問い合わせ</a></li>
+            </ul>
+         </nav>
+        <!-- スマホ用ハンバーガー -->
+         <!-- スマホ用メニューボタン -->
+         <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+         <img src="new-images/button-menu.png" alt="ナビゲーションを開く">
+        </button>
+        <!-- スマホ用ナビゲーション -->
+         <div id="nav-sp">
+          <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+            <img src="images/button-close.png" alt="ナビゲーションを閉じる">
+          </button>
+
+          <nav>
+            <ul>
+              <li>
+                <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display= 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></li>
+                  <li><a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display= 'none'">elementry beautyとは</a></li>
+                  <li><a class="menu" href="product.html" onclick="document.getElementById('nav-sp').style.display= 'none'">メニュー</a></li>
+                  <li><a class="menu" href="index.html#aboutus" onclick="document.getElementById('nav-sp').style.display= 'none'">プロフィール</a></li>
+                  <li><a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display= 'none'">サロン概要</a></li>
+                  <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display= 'none'">お問い合わせ</a></li>
+            </ul>
+          </nav>
+          <div id="sns">
+            <a href="https://www.facebook.com/sejuku2013">
+              <img src="images/button-facebook.png" alt="facebookのリンク">
+            </a>
+            <a href="https://twitter.com/samuraijuku">
+              <img src="images/button-twitter.png" alt="Twitterのリンク">
+            </a>
+            <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g">
+              <img src="images/button-youtube.png" alt="YouTubeのリンク">
+            </a>
+          </div>
+         </div>
+    </header>
+
+    <main>
+        <article>
+            <section id="product-main">
+                <div class="product-main-inner">
+                    <div id="product-title">
+                        <h1>メニュー<br><span>menu</span></h1>
+                        <p>TOP > MENU</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="product-section product-section-left">
+                <div class="product-section-img">
+                    <img src="new-images/index/index-mantoman.png" alt="メイクを施す女性">
+                </div>
+                <div class="product-read">
+                    <h2 class="product-h2">個人のお客様</h2>
+                    <h3 class="product-h3">プログラムメニュー</h3>
+                    <p>このプログラムのゴールは
+                        <br>
+                        ・「なりたい自分」よりも「今の自分」を好きになる
+                        <br>・コンプレックスを「魅力」に変えるマインドを持つ
+                        <br>・メイクを「隠す」ものではなく「楽しむ」ものにする
+                        <br>・「これが私！」と言える、自分らしいメイクスタイルを見つける
+                        <br>メイクを通じて「自分に自信を持つマインド」を育み心から輝く美しさを引き出すことを目指しています。
+                    </p>
+                </div>
+            </section>
+
+            <section class="product-section product-section-right">
+                <div class="product-read">
+                    <h2 class="product-h2">個人のお客様</h2>
+                    <h3 class="product-h3">サロンメニュー</h3>
+                    <p>まつ毛カール・消えない眉などのプラスMENUを 受けていただけます。「新しい自分をみてみたい！」「自分をちょっと変えてみたい」そんな思いの方は是非！
+                        <br>
+                        <br>
+                        ・ラッシュリフト３Dまつ毛カール
+                        <br>　75分　5,500円(税込)
+                        <br>・眉デザイン＆プチレッスン
+                        <br>　90分　7,700円(税込)
+                        <br>・眉デザイン＋デザインキープ！ハーブタンニング
+                        <br>　90分　7,700円(税込)
+                    </p>
+                </div>
+                <div class="product-section-img">
+                    <img src="new-images/index/index-media.png" alt="まつげカール施術後の目元">
+                </div>
+            </section>
+
+            <section class="product-section product-section-left">
+                <div class="product-section-img">
+                    <img src="new-images/index/index-photo.png" alt="たくさんのチェキ">
+                </div>
+                <div class="product-read">
+                    <h2 class="product-h2">写真撮影</h2>
+                    <h3 class="product-h3">ポートレートセッション</h3>
+                    <p>メイク、ヘアのリタッチをレッスン形式で進めます。レッスン終了後、ポートレイト写真を撮りながら自分自身と向き合いゆっくりとご自分との対話を。婚活のプロフィール写真などにもどうぞ。
+                        <br>
+                    <br>120分 / 27,500円</p>
+                </div>
+            </section>
+
+            <section class="product-section product-section-right">
+                <div class="product-read">
+                    <h2 class="product-h2">サロン経営者様</h2>
+                    <h3 class="product-h3">スキルアップ講座</h3>
+                    <p>サロンのクオリティを さらに向上させることでお客様にお喜びいただき、より潤滑な運営に繋げるお手伝いをさせていただきます。
+                        <br>
+                        <br>
+                        化粧品販売目的でないメイクの技術講習会を行いたい
+                        <br>メイクをメニューに導入したい
+                        <br>メイク道具はあるのに活用できていない
+                        <br>メイクや眉カットを感覚で行っている
+                        <br>いまさらきけないメイクの基礎を知りたい
+                        <br>フォト撮影向けのメイク技術を習いたい
+                        <br>成人式、卒業式などセレモニーに向けてメイク講習を受けたい
+                        <br>このようなご要望にお応えしております
+                    </p>
+                </div>
+                <div class="product-section-img">
+                    <img src="new-images/index/index-b2b.png" alt="講演中の男性とそれを聞く人々">
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer id="footer">
+        <div id="footer-logo">
+          <img src="new-images/logo-sp.png" alt="STUDIO R.M.">
+        </div>
+        <div id="footer-link">
+            <a href="mission.html">elementry beautyとは</a>
+            <a href="product.html">メニュー</a>
+            <a href="index.html#aboutus">プロフィール</a>
+            <a href="index.html#company">サロン概要</a>
+            <a href="index.html#contact">お問い合わせ</a>
+          </div>
+        <div id="sns-footer">
+            <div class="sns-btns">
+                <a href="https://www.facebook.com/profile.php?id=100004184952066"><img src="new-images/button-facebook.png" alt="Facebookのリンク"></a>
+                <a href="https://www.instagram.com/minimumricca/"><img src="new-images/button-insta.png" alt="instagramのリンク"></a>
+              </div>
+          <p id="copyright">&copy;2025 uixa design, Inc. All Rights Reserved.</p>
+        </div>
+      </footer>
+  </body>
+</html>
